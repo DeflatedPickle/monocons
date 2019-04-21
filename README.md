@@ -1,2 +1,2 @@
-# PickleIconPack
-A set of icons made by me for use with my software.
+# Bincons
+A set of black and white, 16x16 icons.
