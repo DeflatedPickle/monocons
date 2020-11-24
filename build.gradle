@@ -18,7 +18,7 @@ allprojects {
     }
 }
 
-project(':master') {
+project(':library') {
     apply plugin: 'maven'
 
     group 'org.deflatedpickle'
