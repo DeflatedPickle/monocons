@@ -1,0 +1,6 @@
+rootProject.name = 'Nagato'
+
+include 'master'
+
+include 'library'
+include 'demo'
