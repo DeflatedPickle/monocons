@@ -14,11 +14,12 @@ fun main() {
         i.isAccessible = true
 
         if (i.type == Icon::class.java) {
-            val button = JButton(i.get(NagatoIcon) as Icon)
-            window.add(button)
+            window.add(JButton(i.get(NagatoIcon) as Icon).apply {
+                toolTipText = i.name.toLowerCase()
+            })
         }
     }
 
-    window.size = Dimension(300, 435)
+    window.size = Dimension(300, 500)
     window.isVisible = true
 }

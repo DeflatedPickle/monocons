@@ -60,6 +60,13 @@ object NagatoIcon {
     val FIND_PREVIOUS = icon("find_previous")
 
     val GO_TO = icon("go_to")
+    val CHAIN_LINK = icon("chain_link")
+
+    val IGNORE = icon("ignore")
+
+    val CASE_INSENSITIVE = icon("case_insensitive")
+    val IGNORE_WHITESPACE = icon("ignore_whitespace")
+    val STRIP_SPECIAL_CHARACTERS = icon("strip_special_characters")
 
     val ZOOM_IN = icon("zoom_in")
     val ZOOM_OUT = icon("zoom_out")
@@ -77,6 +84,7 @@ object NagatoIcon {
     val FOLDER_CLOSE = icon("folder_close")
     val FOLDER_OPEN = icon("folder_open")
     val FOLDER_OPEN_FILE = icon("folder_open_2")
+    val FOLDER_NEW = icon("folder_new")
 
     val LOCK_OPEN = icon("lock_unlocked")
     val LOCK_CLOSED = icon("lock_locked")
@@ -87,8 +95,9 @@ object NagatoIcon {
     val PAINTING_BLANK = icon("painting_blank")
     val PAINTING_DECORATED = icon("painting_decorated")
 
-    val FILE = icon("paper_new")
+    val FILE = icon("paper_blank")
     val FILE_SMALL = icon("paper_small")
+    val FILE_NEW = icon("paper_new")
     val FILE_TEXT = icon("paper_text")
     val FILE_BINARY = icon("paper_binary")
     val FILE_CODE = icon("paper_code")
