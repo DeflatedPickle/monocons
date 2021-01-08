@@ -1,6 +1,5 @@
-rootProject.name = 'Nagato'
+rootProject.name = 'nagato'
 
 include 'master'
 
-include 'library'
 include 'demo'
