@@ -1,4 +1,4 @@
-import com.deflatedpickle.nagato.NagatoIcon
+import com.deflatedpickle.monocons.MonoIcon
 import uk.co.timwise.wraplayout.WrapLayout
 import java.awt.Dimension
 import javax.swing.*
@@ -10,11 +10,11 @@ fun main() {
     window.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
     window.layout = WrapLayout()
 
-    for (i in NagatoIcon::class.java.declaredFields) {
+    for (i in MonoIcon::class.java.declaredFields) {
         i.isAccessible = true
 
         if (i.type == Icon::class.java) {
-            window.add(JButton(i.get(NagatoIcon) as Icon).apply {
+            window.add(JButton(i.get(MonoIcon) as Icon).apply {
                 toolTipText = i.name.toLowerCase()
             })
         }

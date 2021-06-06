@@ -1,11 +1,11 @@
-package com.deflatedpickle.nagato
+package com.deflatedpickle.monocons
 
 import javax.imageio.ImageIO
 import javax.swing.Icon
 import javax.swing.ImageIcon
 
 @Suppress("SpellCheckingInspection", "unused")
-object NagatoIcon {
+object MonoIcon {
     private const val NAMESPACE = "nagato"
 
     val ADD_ELEMENT = icon("add_element")

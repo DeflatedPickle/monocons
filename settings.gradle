@@ -1,4 +1,4 @@
-rootProject.name = 'nagato'
+rootProject.name = 'monocons'
 
 include 'master'
 
