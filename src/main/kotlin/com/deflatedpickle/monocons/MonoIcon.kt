@@ -6,7 +6,7 @@ import javax.swing.ImageIcon
 
 @Suppress("SpellCheckingInspection", "unused")
 object MonoIcon {
-    private const val NAMESPACE = "nagato"
+    private const val NAMESPACE = "icon"
 
     val ADD_ELEMENT = icon("add_element")
     val EDIT_ELEMENT = icon("edit_element")
