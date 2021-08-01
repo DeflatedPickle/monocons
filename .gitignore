@@ -30,3 +30,6 @@ build
 *.iml
 out
 gen
+
+# Krita
+*.png~

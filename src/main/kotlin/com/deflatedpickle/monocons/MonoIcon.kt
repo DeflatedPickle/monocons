@@ -106,6 +106,8 @@ object MonoIcon {
     val RUN = icon("run")
     val RUN_DEBUG = icon("run_in_debug")
 
+    val TRANSLATE = icon("translate")
+
     private fun icon(name: String): Icon = ImageIcon(
         ImageIO.read(
             this::class.java.getResource("/$NAMESPACE/$name.png").openStream()
