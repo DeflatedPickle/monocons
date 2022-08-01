@@ -102,6 +102,7 @@ object MonoIcon {
     val FILE_BINARY = icon("paper_binary")
     val FILE_CODE = icon("paper_code")
     val FILE_JSON = icon("paper_json")
+    val FILE_EXPORT = icon("paper_export")
 
     val RUN = icon("run")
     val RUN_DEBUG = icon("run_in_debug")
