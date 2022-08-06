@@ -77,6 +77,11 @@ object MonoIcon {
     val COLOUR_PICKER = icon("colour_picker")
     val PAINT_BUCKET = icon("paint_bucket")
     val LINE = icon("line")
+    val SHAPES = icon("shapes")
+
+    val SHAPE_RECT = icon("draw_rect")
+    val SHAPE_TRI = icon("draw_triangle")
+    val SHAPE_OVAL = icon("draw_oval")
 
     val MOVE = icon("move")
     val BOX_SELECT = icon("box_select")
