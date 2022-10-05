@@ -114,6 +114,8 @@ object MonoIcon {
 
     val TRANSLATE = icon("translate")
 
+    val SWAP = icon("swap")
+
     private fun icon(name: String) = ImageIcon(
         ImageIO.read(
             this::class.java.getResource("/$NAMESPACE/$name.png").openStream()
