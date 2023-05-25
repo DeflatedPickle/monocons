@@ -112,6 +112,10 @@ object MonoIcon {
     val RUN = icon("run")
     val RUN_DEBUG = icon("run_in_debug")
 
+    val PAUSE = icon("pause")
+    val FAST_FORWARD = icon("fastforward")
+    val REWIND = icon("rewind")
+
     val TRANSLATE = icon("translate")
 
     val SWAP = icon("swap")
