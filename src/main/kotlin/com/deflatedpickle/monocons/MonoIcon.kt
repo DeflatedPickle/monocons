@@ -73,6 +73,7 @@ object MonoIcon {
 
     val CURSOR = icon("arrow")
     val PENCIL = icon("pencil")
+    val BRUSH = icon("brush")
     val ERASER = icon("eraser")
     val COLOUR_PICKER = icon("colour_picker")
     val PAINT_BUCKET = icon("paint_bucket")
