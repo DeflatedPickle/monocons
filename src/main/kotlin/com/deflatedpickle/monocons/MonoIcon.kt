@@ -25,6 +25,7 @@ object MonoIcon {
     val NBT = icon("nbt")
 
     val SETTINGS = icon("settings")
+    val WRENCH = icon("wrench")
 
     val CHESSBOARD = icon("chessboard")
 
