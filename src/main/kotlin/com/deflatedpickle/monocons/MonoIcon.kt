@@ -22,6 +22,11 @@ object MonoIcon {
     val ARROW_LEFT = icon("back_arrow")
     val ARROW_RIGHT = icon("forward_arrow")
 
+    val ARROW_END_VERTICAL = icon("arrow_down_end")
+    val ARROW_START_VERTICAL = icon("arrow_up_end")
+    val ARROW_END_HORIZONTAL = icon("forward_arrow_end")
+    val ARROW_START_HORIZONTAL = icon("back_arrow_end")
+
     val NBT = icon("nbt")
 
     val SETTINGS = icon("settings")
